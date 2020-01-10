@@ -1,6 +1,12 @@
 #Eagle temp files
+**.b#*
+**.s#*
+**.l#*
+**.job
+**.pro
 *.b#*
 *.s#*
 *.l#*
 *.job
 *.pro
+
