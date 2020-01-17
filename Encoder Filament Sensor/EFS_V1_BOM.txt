@@ -1,0 +1,54 @@
+Partlist
+
+Exported from EFS_V1.brd at 27-04-2019 11:07
+
+EAGLE Version 9.1.3 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value              Package                    Library                                        Position (mil)        Orientation
+
+C1       0.1uF              0603                       SparkFun-Capacitors                            (400 950)             R0
+C2       1uf                0603                       SparkFun-Capacitors                            (200 650)             R180
+C3       0.1uF              0603-CAP                   SparkFun-Capacitors                            (1700 350)            R0
+C4       10uF               1210                       SparkFun-Capacitors                            (1650 500)            R0
+C5       0.1uF              0603                       SparkFun-Capacitors                            (1400 1500)           R90
+C6       0.1uF              0603                       SparkFun-Capacitors                            (1200 1500)           R90
+C7       0.1uF              0603                       SparkFun-Capacitors                            (800 1500)            R90
+C8       0.1uF              0603                       SparkFun-Capacitors                            (600 1500)            R90
+D1       CGRM4007-G         SOD-123_MINI-SMA           diode                                          (2150 400)            R270
+D2       CGRM4007-G         SOD-123_MINI-SMA           diode                                          (2000 400)            R270
+D3       FAIL               LED_3MM                    SparkFun-LED                                   (2100 1575)           R0
+FS       RPi Board (O)      JST-XH-03-PACKAGE-LONG-PAD Rembrandt                                      (1300 250)            R0
+JP1                         1X03                       pinhead                                        (2350 650)            R270
+R1        720R              0603                       SparkFun-Resistors                             (150 800)             R90
+R2       100R               0603                       SparkFun-Resistors                             (200 950)             R0
+R3       10k                0603                       SparkFun-Resistors                             (1500 1500)           R90
+R4       10k                0603                       SparkFun-Resistors                             (1300 1500)           R90
+R5       10k                0603                       SparkFun-Resistors                             (900 1500)            R90
+R6       10k                0603                       SparkFun-Resistors                             (700 1500)            R90
+R7       10k                0603                       SparkFun-Resistors                             (1850 500)            R0
+R8       100R               0603                       SparkFun-Resistors                             (1900 1575)           R180
+SG1      F/CM12P            F/CM12P                    buzzer                                         (2350 1150)           R270
+SJ1                         SJW                        jumper                                         (1050 1500)           R90
+TP1      TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (400 500)             R90
+TP2      TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (250 550)             R90
+TP3      TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (1600 350)            R90
+TP4      TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (150 550)             R90
+TP5      TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (800 500)             R90
+TP6      TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (900 500)             R90
+TP7      TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (600 500)             R90
+TP8      TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (700 500)             R90
+TP9      TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (1400 1400)           R90
+TP10     TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (1300 1400)           R90
+TP11     TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (800 1400)            R90
+TP12     TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (700 1400)            R90
+TP13     TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (1200 500)            R90
+TP14     TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (1300 500)            R90
+TP15     TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (1750 1575)           R90
+TP16     TEST-POINT3X5      PAD.03X.05                 SparkFun-Connectors                            (2200 750)            R90
+U$1      NANO               NANO                       Arduino-clone                                  (1550 1050)           R90
+U2       LM317              SOT223                     SparkFun-IC-Power                              (250 1200)            R0
+X1       Carriage Board (I) JST-XH-06-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (650 250)             R0
+X2       ENC0               JST-XH-04-PACKAGE-LONG-PAD Rembrandt                                      (1350 1750)           R180
+X3       ENC1               JST-XH-04-PACKAGE-LONG-PAD Rembrandt                                      (750 1750)            R180

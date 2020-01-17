@@ -1,0 +1,18 @@
+Partlist
+
+Exported from FWBC_v1.brd at 27-04-2019 11:13
+
+EAGLE Version 9.1.3 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                  Package                    Library             Position (mil)        Orientation
+
+C1       C2012X5R1V226M125AC    CAPC2012X145N              SamacSys_Parts      (2185 555)            R270
+C2       TPSA475K010R1400       CAPPM3216X180N             SamacSys_Parts      (700 525)             R270
+D2       SS36-E3_57T            DIOM7959X262N              SamacSys_Parts      (1585 505)            R90
+JP1      USB4-2.0-90D           USB4+2P-2.0-90D            Seeed-Connector     (450 400)             R270
+L1       SRP1265A-470M          SRP1265A                   SamacSys_Parts      (1175 430)            R90
+LM2596   LM2596S                LM2596_TO263-5             FracktalWorks       (1940 360)            R180
+TP1      TEST-POINT3X5          PAD.03X.05                 SparkFun-Connectors (835 485)             R0
+X1       JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt           (755 255)             R270
