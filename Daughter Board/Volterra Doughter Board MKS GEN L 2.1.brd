@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -34,17 +34,17 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
@@ -9968,8 +9968,8 @@
 <text x="53.594" y="4.191" size="1.27" layer="25">H0-</text>
 <text x="63.5" y="4.064" size="1.27" layer="25">H1-</text>
 <text x="58.674" y="4.064" size="1.27" layer="25">H1+</text>
-<text x="43.434" y="3.556" size="0.3048" layer="25" font="vector">BROWN</text>
-<text x="38.227" y="3.556" size="0.3048" layer="25" font="vector">BLACK</text>
+<text x="43.434" y="3.556" size="0.508" layer="25" font="vector">BROWN</text>
+<text x="38.227" y="3.556" size="0.508" layer="25" font="vector">BLACK</text>
 <text x="100.076" y="49.276" size="1.016" layer="25">24V</text>
 <text x="106.807" y="49.276" size="1.016" layer="25">Z_DIR</text>
 <text x="106.553" y="46.228" size="1.016" layer="25">5V</text>
@@ -9981,6 +9981,14 @@
 <text x="104.648" y="40.005" size="1.016" layer="25">CH_HEAT</text>
 <text x="106.426" y="36.83" size="1.016" layer="25">Y_LIM</text>
 <text x="97.663" y="32.258" size="1.016" layer="25">SERVO_DAT</text>
+<text x="67.691" y="17.526" size="1.016" layer="25">H1+</text>
+<text x="74.803" y="17.78" size="1.016" layer="25">H1-</text>
+<text x="74.93" y="14.097" size="1.016" layer="25">H0-</text>
+<text x="67.945" y="14.097" size="1.016" layer="25">H0+</text>
+<text x="74.93" y="10.287" size="1.016" layer="25">CF+</text>
+<text x="68.326" y="9.779" size="1.016" layer="25">CF-</text>
+<text x="118.11" y="12.7" size="0.8128" layer="26" rot="MR270">DESIGNED BY</text>
+<text x="116.84" y="11.43" size="0.8128" layer="26" rot="MR270">A GAUTHAM</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -15431,7 +15439,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="55.88" y="-13.97" smashed="yes"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="41.91" y="-13.97" smashed="yes"/>
 <element name="J1" library="SparkFun-Connectors" package="1X02" value="" x="89.154" y="3.81" smashed="yes">
 <attribute name="NAME" x="87.884" y="5.207" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="87.884" y="1.778" size="0.6096" layer="27" font="vector" ratio="20"/>
@@ -15838,6 +15846,21 @@ design rules under a new name.</description>
 <vertex x="25.654" y="18.542"/>
 <vertex x="25.654" y="60.071" curve="-90"/>
 </polygon>
+<polygon width="0.0762" layer="1" orphans="yes">
+<vertex x="26.289" y="60.579"/>
+<vertex x="115.824" y="60.579" curve="-90"/>
+<vertex x="118.491" y="57.912"/>
+<vertex x="118.491" y="2.032" curve="-90"/>
+<vertex x="116.459" y="0"/>
+<vertex x="36.957" y="0" curve="-90"/>
+<vertex x="35.56" y="1.397"/>
+<vertex x="35.56" y="15.367" curve="90"/>
+<vertex x="34.417" y="16.51"/>
+<vertex x="27.686" y="16.51" curve="-90"/>
+<vertex x="25.654" y="18.542"/>
+<vertex x="25.654" y="60.071" curve="-90"/>
+<vertex x="26.162" y="60.579"/>
+</polygon>
 </signal>
 <signal name="X_LMT">
 <contactref element="K1" pad="15"/>
@@ -16172,6 +16195,9 @@ design rules under a new name.</description>
 <approved hash="23,16,3ba878427e083de2"/>
 <approved hash="23,16,fa7bd991d8f2fb18"/>
 <approved hash="23,16,54c77ab9788856f6"/>
+<approved hash="23,1,02ab77b7035202ac"/>
+<approved hash="23,1,224f4dc94e852103"/>
+<approved hash="23,1,1ac7982d99c91b23"/>
 </errors>
 </board>
 </drawing>
